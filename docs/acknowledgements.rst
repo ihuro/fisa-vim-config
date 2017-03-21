@@ -19,6 +19,7 @@ Also, thanks to:
 * Angel Freire
 * Ariel Rossanigo
 * Cassio Botaro
+* Fede Gonzalez (docker image mantainer)
 
 And thanks to all the developers of the plugins that I simply use here:
 
@@ -46,6 +47,7 @@ And thanks to all the developers of the plugins that I simply use here:
 * `AutoClose <https://github.com/Townk/vim-autoclose>`_
 * `YankRing <http://www.vim.org/scripts/script.php?script_id=1234>`_
 * `Indent object <http://github.com/michaeljsmith/vim-indent-object>`_
+* `Indentation based movements <https://github.com/jeetsukumaran/vim-indentwise>`_
 * `Relative line numbers <http://github.com/myusuf3/numbers.vim>`_
 * `Snippets manager (SnipMate) <http://github.com/garbas/vim-snipmate>`_ (plus dependencies `addon-mw-utils <http://github.com/MarcWeber/vim-addon-mw-utils>`_ and `tlib <http://github.com/tomtom/tlib_vim>`_ )
 * `SnipMate snippets compilation <http://github.com/honza/vim-snippets>`_
@@ -56,3 +58,4 @@ And thanks to all the developers of the plugins that I simply use here:
 * `Css colors painter <https://github.com/lilydjwg/colorizer>`_
 * `Code grepper <https://github.com/mileszs/ack.vim>`_
 * `VIM integration for YAPF <https://github.com/pignacio/vim-yapf-format>`_
+* `Custom configs by folder <https://github.com/arielrossanigo/dir-configs-override.vim>`_

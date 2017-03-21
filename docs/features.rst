@@ -125,9 +125,11 @@ Most important features include:
 
 * **Indentation defined text objects** for the editing language, named ``i``. For example, you can change an entire indented code block with ``cii``, or the indented block and its header line with ``cai`` (also yank, delete, ...).
 
+* **Indentation based movements**, move to the header of your current python block with ``[-``, to the end of the block with ``]-``, and more (short reference `here <https://github.com/jeetsukumaran/vim-indentwise>`_).
+
 * **Python class and method/function text objects** for the editing language, named ``C`` and ``M``. For example, you can change an entire function content with ``ciM``, or delete a class including its header with ``daC``.
 
-* **Run the curren python file** and display the output on a split with ``\r``.
+* **Run the current python file** and display the output on a split with ``\r``.
 
 * **Insert and remove ipdb breakpoints** with ``\b``.
 
@@ -149,4 +151,13 @@ Most important features include:
 
 * **Format Python code** using yapf (``:YapfFullFormat`` formats the whole file, and has other commands as well, explained `here <https://github.com/pignacio/vim-yapf-format>`_. **Works only if you have a vim compiled with python 2, not python 3**).
 
+* **Custom configs by folder** add a ``.vim.custom`` file in the project's root folder with whatever configs you want to customize for that project.
+  For example, if you have a project tree like this example and you want to exclude ``folder_x`` from FuzzyFinder, put ``let g:ctrlp_custom_ignore["dir"] = g:ctrlp_custom_ignore["dir"] . '|\v[\/]folder_x$'`` in the ``.vim.custom`` file.
 
+     ::
+
+          project
+          ├── folder_1
+          ├── folder_2
+          ├── folder_x
+          └── .vim.custom

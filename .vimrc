@@ -1,6 +1,6 @@
 " Fisa-vim-config
 " http://fisadev.github.io/fisa-vim-config/
-" version: 8.0
+" version: 8.2
 
 " ============================================================================
 " Vim-plug initialization
@@ -33,6 +33,8 @@ call plug#begin('~/.vim/plugged')
 
 " Plugins from github repos:
 
+" Override configs by directory 
+Plug 'arielrossanigo/dir-configs-override.vim'
 " Better file browser
 Plug 'scrooloose/nerdtree'
 " Code commenter
@@ -64,6 +66,8 @@ Plug 'tpope/vim-surround'
 Plug 'Townk/vim-autoclose'
 " Indent text object
 Plug 'michaeljsmith/vim-indent-object'
+" Indentation based movements
+Plug 'jeetsukumaran/vim-indentwise'
 " Python mode (indentation, doc, refactor, lints, code checking, motion and
 " operators, highlighting, run and ipdb breakpoints)
 Plug 'klen/python-mode'
