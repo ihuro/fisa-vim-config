@@ -40,13 +40,13 @@ Plug 'scrooloose/nerdtree'
 " Code commenter
 Plug 'scrooloose/nerdcommenter'
 " Class/module browser
-Plug 'majutsushi/tagbar'
+" Plug 'majutsushi/tagbar'
 " Code and files fuzzy finder
 Plug 'ctrlpvim/ctrlp.vim'
 " Extension to ctrlp, for fuzzy command finder
 Plug 'fisadev/vim-ctrlp-cmdpalette'
 " Zen coding
-Plug 'mattn/emmet-vim'
+" Plug 'mattn/emmet-vim'
 " Git integration
 Plug 'motemen/git-vim'
 " Tab list panel
@@ -171,6 +171,10 @@ map <C-S-Right> :tabn<CR>
 imap <C-S-Right> <ESC>:tabn<CR>
 map <C-S-Left> :tabp<CR>
 imap <C-S-Left> <ESC>:tabp<CR>
+map <S-A-Left> :tabm -1<CR>
+imap <S-A-Left> <ESC>:tabm -1<CR>
+map <S-A-Right> :tabm +1<CR>
+imap <S-A-Right> <ESC>:tabm +1<CR>
 
 " navigate windows with meta+arrows
 map <M-Right> <c-w>l
